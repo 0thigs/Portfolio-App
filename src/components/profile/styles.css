@@ -1,0 +1,33 @@
+.profile-cont {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img-cont {
+    width: 33rem;
+    height: 33rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(14,14,14,1) 59%, rgb(38, 38, 38) 82%, rgba(29,29,29,1) 100%);
+    -webkit-box-shadow: -5px 9px 144px -32px rgba(245,30,245,1);
+    -moz-box-shadow: -5px 9px 144px -32px rgba(245,30,245,1);
+    box-shadow: -5px 9px 144px -32px rgba(245,30,245,1);
+}
+
+.circle svg {
+    transform: scale(0.99);
+    position: relative;
+    top: 50px;
+    border-radius: 25%;
+}

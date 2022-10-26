@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+.aboutMe-cont {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 5%;
+}
+
+.aboutMe-cont h1 {
+    margin-bottom: 10%;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.card {
+    width: 33rem;
+    height: 33rem;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(3, 4, 5, 0.479);
+    -webkit-box-shadow: -5px 9px 144px -32px rgba(245,30,245,1);
+    -moz-box-shadow: -5px 9px 144px -32px rgba(245,30,245,1);
+    box-shadow: -5px 9px 144px -32px rgba(245,30,245,1);
+}
+
+.text {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+

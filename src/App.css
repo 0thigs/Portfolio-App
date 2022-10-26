@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+main {
+    width: 100%;
+    height: 710px;
+    background-size: 300% 300%;
+    background-image: linear-gradient(
+        -45deg,
+        rgb(74, 30, 132) 0%,
+        rgb(154, 109, 232) 25%,
+        #632d9a 51%,
+        #79408f 100%
+    );
+    animation: animationBackground 20s ease infinite;
+    display: flex;
+}
+
+.projetos {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1B181B;
+}
+
+@keyframes animationBackground {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    main {
+      flex-direction: column;
+  }
+
+}

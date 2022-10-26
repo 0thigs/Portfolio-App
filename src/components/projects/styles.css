@@ -1,0 +1,18 @@
+.projects-cont {
+    border-top: solid 1px black;
+    height: 100%;
+    padding: 100px;
+}
+
+#project-title {
+    margin: 30px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+header {
+    flex: 1;
+    background: rgb(24, 24, 24);
+    padding: 1% 2%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.name {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name svg {
+    transform: scale(0.8);
+    margin: 0 5px 0 5px;
+}
+
+.routes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    transition: all 350ms;
+}
+a:hover {
+    transform: scale(1.1);
+}
+a:active {
+    color: #b9b9b9;
+}
+
+span {
+    background-image: linear-gradient(to bottom, #663399, #4682b4, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 2% 4%;
+    }
+    .name{
+        flex-wrap: wrap;
+    }
+    svg {
+        transform: scale(0.8);
+        margin: 5px;
+    }
+}
