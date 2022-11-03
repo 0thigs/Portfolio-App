@@ -12,10 +12,10 @@ main {
     background-size: 300% 300%;
     background-image: linear-gradient(
         -45deg,
-        rgb(74, 30, 132) 0%,
-        rgb(154, 109, 232) 25%,
-        #632d9a 51%,
-        #79408f 100%
+        #0858c1 0%,
+        rgb(213, 39, 20) 25%,
+        rgb(50, 7, 106) 51%,
+        #b700ff 100%
     );
     animation: animationBackground 20s ease infinite;
     display: flex;
@@ -25,6 +25,12 @@ main {
   height: fit-content;
   width: 100vw;
   background-color: rgb(24, 24, 24);
+}
+
+.contacts {
+  height: 100vh;
+  width: 100%;
+  background-color: purple;
 }
 
 @keyframes animationBackground {

@@ -15,7 +15,7 @@ a {
     align-items: center;
 }
 
-#project-title {
+.project-title {
     width: max-content;
     margin: 30px;
     text-transform: uppercase;
@@ -25,7 +25,7 @@ a {
     letter-spacing: 4px;
     transition: all 1s;
 }
-#project-title:hover {
+.project-title:hover {
     letter-spacing: 2px;
 }
 

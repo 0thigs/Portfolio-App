@@ -1,0 +1,35 @@
+.media-container {
+  width: max-content;
+  background: rgba(24, 24, 24, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+.media-container:hover {
+    transform: scale(1.2);
+}
+
+
+.media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.media-img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.media-text {
+  font-size: 25px;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+}

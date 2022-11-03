@@ -7,7 +7,7 @@ function projects() {
     <div className='projects-cont'>
       <div className="title">
         <a href="https://github.com/0thigs" target={"_blank"}>
-          <h1 id='project-title'>Meus Projetos</h1>
+          <h1 className='project-title'>Meus Projetos</h1>
         </a>
       </div>
       <div className="cards">

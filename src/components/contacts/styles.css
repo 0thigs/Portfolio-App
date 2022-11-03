@@ -1,0 +1,58 @@
+.contacts-container {
+  width: 100%;
+  height: 100%;
+  border-top: solid 1px black;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+    -45deg,
+    #0858c1 0%,
+    rgb(213, 39, 20) 25%,
+    rgb(50, 7, 106) 51%,
+    #b700ff 100%
+  );
+  animation: animationBackground 20s ease infinite;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  width: auto;
+  height: 100px;
+}
+
+.cardzin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: max-content;
+  background: rgba(24, 24, 24, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50px;
+  padding: 0 30px;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    height: 100%;
+}
+
+@keyframes animationBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
