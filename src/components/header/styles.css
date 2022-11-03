@@ -34,7 +34,7 @@ h1 {
     flex-wrap: wrap;
 }
 
-a {
+.aboutlink {
     text-decoration: none;
     font-size: 20px;
     padding: 10px;
@@ -43,10 +43,10 @@ a {
     color: #fff;
     transition: all 350ms;
 }
-a:hover {
+.aboutlink:hover {
     transform: scale(1.1);
 }
-a:active {
+.aboutlink:active {
     color: #b9b9b9;
 }
 

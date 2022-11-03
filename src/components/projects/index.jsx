@@ -1,8 +1,5 @@
 import React from 'react';
-import ProjectCard1 from '../project-card/card1';
-import ProjectCard2 from '../project-card/card2';
-import ProjectCard3 from '../project-card/card3';
-import ProjectCard4 from '../project-card/card4';
+import Card from '../project-card';
 import './styles.css'
 
 function projects() {
@@ -14,10 +11,8 @@ function projects() {
         </a>
       </div>
       <div className="cards">
-        <ProjectCard1 />
-        <ProjectCard2 />
-        <ProjectCard3 />
-        <ProjectCard4 />
+        <Card name="Github Profile Finder" url="https://i.imgur.com/H2bb6EO.png" href="https://github.com/0thigs/Github-Profile-Finder"/>
+        <Card name="Realtime Chat App" url="https://i.imgur.com/KHZEf67.png" href="https://github.com/0thigs/ChatApp" />
       </div>
     </div>
     );

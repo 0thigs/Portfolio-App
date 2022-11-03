@@ -24,7 +24,7 @@ main {
 .projetos {
   height: 100vh;
   width: 100vw;
-  background-color: #1B181B;
+  background-color: rgb(24, 24, 24);
 }
 
 @keyframes animationBackground {
