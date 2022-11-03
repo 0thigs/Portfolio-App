@@ -12,13 +12,19 @@
   align-items: center;
   position: relative;
   margin: 30px;
-  border: solid 1px rgb(148, 148, 148)
+  border: solid 1px rgb(148, 148, 148);
+  cursor: pointer;
 }
 
 .card0 {
-    background-size: 500px;
+    background-size: 300px;
     background-repeat: no-repeat;
 }
  .card0:hover {
-  background-size: 700px;
+  background-size: 400px;
+}
+
+.card-title {
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 2px rgb(24, 24, 24);
 }
