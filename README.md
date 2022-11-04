@@ -3,6 +3,8 @@
 
 A provisional portfolio that shows a little of my projects and ways to get in touch!!
 
+**If you want to run the application just click [here](https://portfolio-0thigs.vercel.app)** 👈👈
+
 ---
 
 ## What's the technology stack?
